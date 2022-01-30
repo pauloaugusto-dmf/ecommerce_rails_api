@@ -35,7 +35,7 @@ make up
 make db-create
 
 # migrate the database
-meke db-migrate
+make db-migrate
 ```
 
 ### Open the browser at the address `http://0.0.0.0:3000` 
