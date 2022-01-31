@@ -1,5 +1,5 @@
 up:
-	docker-compose up -r
+	docker-compose up -d
 
 up-logs:
 	docker-compose up
@@ -12,6 +12,9 @@ db-create:
 
 db-migrate:
 	docker-compose exec web rails db:migrate
+
+console:
+	docker-compose exec web rails c
 
 test:
 	docker-compose exec web rspec

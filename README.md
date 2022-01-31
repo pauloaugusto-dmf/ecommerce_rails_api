@@ -43,6 +43,7 @@ make db-migrate
 
 # Other useful commands
 
+Note: These commands need the container to be active
 ```bash
 # run container with logs
 make up-logs
@@ -52,6 +53,9 @@ make test
 
 # show the logs
 make logs
+
+# run the rails console
+make console
 
 # finish the container
 make down
