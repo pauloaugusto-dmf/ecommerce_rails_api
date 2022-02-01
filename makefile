@@ -21,3 +21,6 @@ test:
 
 logs:
 	docker-compose logs
+
+bundle:
+	docker-compose exec web bundle
